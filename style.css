@@ -32,16 +32,16 @@ html {
 .logo {
     display: flex;
     align-items: center;
-    margin-left: 98px;
-    margin-right: 37px;
+    margin-left: 6.125vw;
+    margin-right: 2.313vw;
 }
 
 .logoImage {
     background-image: url(Images/logo-img.png);
     background-repeat: no-repeat;
-    width: 59px;
+    width: 3.688vw;
     height: 51px;
-    margin-right: 13px;
+    margin-right: 0.813vw;
 }
 
 .logoText {
@@ -60,27 +60,27 @@ html {
 }
 
 .browse {
-    width: 87px;
+    width: 5.438vw;
     height: 40px;
     border: solid 1px #e6e6e6;
 }
 
 .searchForm {
-    width: 279px;
+    width: 17.438vw;
     height: 38px;
     border: solid 1px #e6e6e6;
     background-color: #ffffff;
     padding-left: 16px;
-    margin-left: -5px;
-    margin-right: -5px;
+    margin-left: -0.312vw;
+    margin-right: -0.312vw;
 }
 
 .search {
-    width: 38px;
+    width: 2.375vw;
     height: 40px;
     border: solid 1px #e6e6e6;
     background-color: #ffffff;
-    margin-right: 250px;
+    margin-right: 15.625vw;
 }
 
 .myAccount {
@@ -90,12 +90,12 @@ html {
 }
 
 .myAccountButton {
-    width: 130px;
+    width: 8.125vw;
     height: 38px;
     background-color: #f16d7f;
     color: #ffffff;
     border: none;
-    margin-left: 26px;
+    margin-left: 1.625vw;
 }
 
 .main {
@@ -109,7 +109,7 @@ html {
 }
 
 .container-m {
-    width: 700px;
+    width: 43.750vw;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
