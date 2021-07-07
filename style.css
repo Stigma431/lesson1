@@ -141,7 +141,7 @@ html {
 }
 
 .promoContainer {
-    width: 950px;
+    width: 67.857vw;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -188,6 +188,10 @@ html {
 
 .promo-bottom span {
     color: #f16d7f;
+}
+
+.items {
+    height: 823px;
 }
 
 .footerPhantom {
