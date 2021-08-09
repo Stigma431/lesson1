@@ -30,7 +30,10 @@ html {
 }
 
 .logo {
-    
+    display: flex;
+    align-items: center;
+    margin-left: 6.125vw;
+    margin-right: 2.313vw;
 }
 
 .logoImage {
