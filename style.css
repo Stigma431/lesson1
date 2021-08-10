@@ -191,11 +191,17 @@ html {
 }
 
 .items {
-    height: 823px;
+    margin-top: 12.405vh;
+    margin-left: 14.44vw;
+    display: flex;
+}
+
+.items-container {
+    display: flex;
 }
 
 .item-1{
-    
+    justify-content: left;
 }
 
 .item-2{
@@ -203,7 +209,7 @@ html {
 }
 
 .item-3{
-    
+    justify-content: flex-end;
 }
 
 .item-4{
