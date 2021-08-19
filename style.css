@@ -202,20 +202,23 @@ html {
 .item-1{
     position: absolute;
     left: 0;
+    background-image: url(Images/Layer 30.png) no-repeat;
 }
 
 .item-2{
     position: absolute;
     left: 0;
     bottom: 0;
+    background-image: url(Images/Layer 37.png) no-repeat;
+    width: ;
 }
 
 .item-3{
-    
+    background-image: url(Images/Layer 32.png) no-repeat;
 }
 
 .item-4{
-    
+    background-image: url(Images/Layer 31.png) no-repeat;
 }
 
 
