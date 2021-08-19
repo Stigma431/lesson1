@@ -193,15 +193,15 @@ html {
 .items {
     margin-top: 12.405vh;
     margin-left: 14.44vw;
-    display: flex;
 }
 
 .items-container {
-    display: flex;
+    position: relative;;
 }
 
 .item-1{
-    justify-content: left;
+    position: absolute;
+    left: 0;
 }
 
 .item-2{
@@ -209,7 +209,7 @@ html {
 }
 
 .item-3{
-    justify-content: flex-end;
+    
 }
 
 .item-4{
