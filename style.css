@@ -197,15 +197,13 @@ html {
 }
 
 .items-container {
-    position: relative;
 }
 
 .item-1{
     background-image: url(Images/Layer30.png) ;
-    position: absolute;
     left: 0;
     width: 35vw;
-    height: 68.607vh   
+    height: 542px;  
 }
 
 .item-2{
