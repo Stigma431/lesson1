@@ -200,18 +200,18 @@ html {
 }
 
 .item-1{
+    background-image: url(Images/Layer30.png) no-repeat;
     position: absolute;
     left: 0;
-    background-image: url(Images/Layer30.png) no-repeat;
+    width: 35vw;
+    height: 68.607vh   
 }
 
 .item-2{
+    background-image: url(Images/Layer37.png) no-repeat;
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(Images/Layer37.png) no-repeat;
-    width: 35vw;
-    height: 68.607vh;
 }
 
 .item-3{
