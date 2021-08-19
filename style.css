@@ -111,7 +111,7 @@ html {
 
 .container-m {
     width: 43.750vw;
-    margin: 0 auto;
+  
     display: flex;
     flex-direction: row;
     justify-content: space-around;
