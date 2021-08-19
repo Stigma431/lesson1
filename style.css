@@ -200,7 +200,7 @@ html {
 }
 
 .item-1{
-    background-image: url(Images/Layer30.png) no-repeat;
+    background-image: url(Images/Layer30.png) ;
     position: absolute;
     left: 0;
     width: 35vw;
