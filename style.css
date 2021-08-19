@@ -135,18 +135,29 @@ html {
 }
 
 .promo {
-    background-image: url(Images/promo-bg.png);
     height: 665px;
     display: flex;
-    align-items: center;
+    
+}
+
+.background {
+    background-color: #e6e6e6;
+    
 }
 
 .promoContainer {
     width: 67.857vw;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    margin-left: 14.44vw;
+    margin-right: 14.44vw;
 }
+
+.promo-content {
+    justify-content: center;
+    align-items: center;
+}
+
 
 .border {
     width: 0;
@@ -156,10 +167,6 @@ html {
     align-items: center;
     flex-wrap: wrap;
     margin-right: 11px;
-}
-
-.promo-content {
-    align-items: flex-start;
 }
 
 .promo-top {
@@ -172,6 +179,7 @@ html {
     color: #222222;
     align-items: center;
     text-align: left;
+
 }
 
 .promo-bottom {
@@ -203,7 +211,7 @@ html {
     background-image: url(Images/Layer30.png) ;
     left: 0;
     width: 35vw;
-    height: 542px;  
+    height: 542px; 
 }
 
 .item-2{
@@ -226,7 +234,7 @@ html {
     right: 0;
     bottom: 0;
     width: 35vw;
-    
+    height: 542px; 
 }
 
 
