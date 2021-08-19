@@ -202,23 +202,24 @@ html {
 .item-1{
     position: absolute;
     left: 0;
-    background-image: url(Images/Layer 30.png) no-repeat;
+    background-image: url(Images/Layer30.png) no-repeat;
 }
 
 .item-2{
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(Images/Layer 37.png) no-repeat;
-    width: ;
+    background-image: url(Images/Layer37.png) no-repeat;
+    width: 35vw;
+    height: 68.607vh;
 }
 
 .item-3{
-    background-image: url(Images/Layer 32.png) no-repeat;
+    background-image: url(Images/Layer32.png) no-repeat;
 }
 
 .item-4{
-    background-image: url(Images/Layer 31.png) no-repeat;
+    background-image: url(Images/Layer31.png) no-repeat;
 }
 
 
