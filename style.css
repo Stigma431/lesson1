@@ -216,10 +216,13 @@ html {
 
 .item-3{
     background-image: url(Images/Layer32.png) no-repeat;
+    right: 0;
 }
 
 .item-4{
     background-image: url(Images/Layer31.png) no-repeat;
+    right: 0;
+    bottom: 0;
 }
 
 
