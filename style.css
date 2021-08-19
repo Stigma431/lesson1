@@ -207,21 +207,26 @@ html {
 }
 
 .item-2{
-    background-image: url(Images/Layer37.png) no-repeat;
-    position: absolute;
+    background-image: url(Images/Layer37.png) ;
     left: 0;
     bottom: 0;
+    width: 35vw;
+    height: 261px;
 }
 
 .item-3{
-    background-image: url(Images/Layer32.png) no-repeat;
+    background-image: url(Images/Layer32.png);
     right: 0;
+    width: 35vw;    
+    height: 261px;
 }
 
 .item-4{
     background-image: url(Images/Layer31.png) no-repeat;
     right: 0;
     bottom: 0;
+    width: 35vw;
+    
 }
 
 
