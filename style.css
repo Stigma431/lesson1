@@ -283,6 +283,96 @@ html {
     text-transform: uppercase;
 }
 
+.f-items {
+    margin-top: 101px;
+}
+
+.f-title {
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #222;
+}
+
+.f-description {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.86;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #9f9f9f;
+}
+
+.f-images {
+    margin: 0 auto;
+}
+
+.first-4 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12.44vw;
+    margin-right: 10.44vw;
+    margin-top: 59px;
+}
+
+.second-4 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12.44vw;
+    margin-right: 10.44vw;
+}
+
+.image-title {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #222;
+    padding-top: 19px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f16d7f;
+    padding-top: 17px;
+}
+
+.browseAllProduct {
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+}
+
+.f-button {
+    width: 212px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f16d7f;
+    border: 0;
+    color: #ffffff;
+}
+
+.arrow {
+    padding-left: 16px;
+}
+
 .footerPhantom {
     height: 428px;
 }
