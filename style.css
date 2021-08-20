@@ -19,7 +19,6 @@ html {
 }
 
 .container {
-    width: 75vw;
     margin: 0 auto;
 }
 
@@ -32,7 +31,6 @@ html {
 .logo {
     display: flex;
     align-items: center;
-    margin-left: 6.125vw;
     margin-right: 2.313vw;
 }
 
@@ -80,7 +78,7 @@ html {
     height: 40px;
     border: solid 1px #e6e6e6;
     background-color: #ffffff;
-    margin-right: 15.625vw;
+    margin-right: 19.625vw;;
 }
 
 .myAccount {
@@ -135,20 +133,23 @@ html {
 }
 
 .promo {
-    height: 665px;
     display: flex;
     
 }
 
 .background {
-    background-color: #e6e6e6;
-    
+   background: url("Images/promo-bg.png") no-repeat #e6e6e6;
+   height: 613px;
+   background-size: 1400px;
+   background-position-x: 88px;
 }
 
 .promoContainer {
     width: 67.857vw;
     margin: 0 auto;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-left: 14.44vw;
     margin-right: 14.44vw;
 }
@@ -161,9 +162,9 @@ html {
 
 .border {
     width: 0;
-    height: 80px;
+    height: 81px;
     border: solid 8px #f16d7f;
-    border-radius: 5px;
+    border-radius: 0px;
     align-items: center;
     flex-wrap: wrap;
     margin-right: 11px;
@@ -192,7 +193,6 @@ html {
     color: #222222;
     align-items: center;
     text-align: left;
-
 }
 
 .promo-bottom span {
@@ -202,9 +202,6 @@ html {
 .items {
     margin-top: 12.405vh;
     margin-left: 14.44vw;
-}
-
-.items-container {
 }
 
 .item-1{
