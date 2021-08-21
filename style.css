@@ -472,7 +472,9 @@ html {
 }
 
 .aboutUs-container {
-    
+    background: url(Images/Layer41.png) no-repeat ;
+    width: 1600px;
+    height: 438px;
 }
 
 .footerPhantom {
