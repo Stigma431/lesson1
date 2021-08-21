@@ -373,6 +373,100 @@ html {
     padding-left: 16px;
 }
 
+.offer {
+    margin-top: 113px;
+    display: flex;
+}
+
+.offer-bg {
+    background: url(Images/banner-bg.jpg) no-repeat;
+    width: 767px;
+    height: 529px;
+}
+
+.container-o {
+    margin: 0 auto;
+    display: flex;
+}
+
+.offer-content {
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #fff;
+    padding-top: 148px;
+    padding-left: 39px;
+}
+
+.percent {
+    font-size: 53.5px;
+    letter-spacing: 1.34px;
+
+}
+
+.pink {
+    font-size: 53.5px;
+    letter-spacing: 1.34px;
+    color: #f16d7f;
+}
+
+
+.second-bg {
+    background: #222222 no-repeat;
+    width: 373px;
+    height: 529px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.opportunities {
+    padding-left: 36px;
+    display: flex;
+}
+
+.i-opportunities {
+    height: 40px;
+}
+
+.s-content {
+    padding-top: 5px;
+    padding-left: 33px;
+}
+
+.s-title {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #fbfbfb;
+}
+
+.s-description span {
+    color: #fbfbfb;
+}
+
+.s-description {
+    width: 220px; 
+    
+    padding-top: 17px;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #fbfbfb; 
+}
+
 .footerPhantom {
     height: 428px;
 }
