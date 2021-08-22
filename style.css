@@ -454,8 +454,8 @@ html {
 }
 
 .s-description {
-    width: 220px; 
-    
+    width: 220px;
+
     padding-top: 17px;
     font-size: 14px;
     font-weight: 300;
@@ -464,17 +464,136 @@ html {
     line-height: 1.71;
     letter-spacing: 0.35px;
     text-align: left;
-    color: #fbfbfb; 
+    color: #fbfbfb;
 }
 
 .aboutUs {
     margin-top: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .aboutUs-container {
-    background: url(Images/Layer41.png) no-repeat ;
+    background: url(Images/subscribe-bg.jpg) no-repeat;
     width: 1600px;
     height: 438px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 111px;
+}
+
+.aboutUs-content {
+    display: flex;
+    margin-bottom: 111px;
+
+}
+
+.photo {
+    width: 83px;
+    height: 83px;
+
+}
+
+.aboutUs-text {
+    margin-left: 28px;
+}
+
+.сomment {
+    width: 398px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #222224;
+
+}
+
+.name {
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #f16d7f;
+}
+
+.city {
+    margin-top: 9px;
+    font-size: 12px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #222224;
+}
+
+.aboutUs-subscribe {
+    margin-bottom: 160px;
+}
+
+.subscribe-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.subscribe-title span {
+    font-size: 24px;
+    line-height: 2.25;
+    letter-spacing: 0.6px;
+}
+
+.subscribe-title p {
+    margin-top: -13px;
+}
+
+.mail {
+    width: 282px;
+    height: 46px;
+    background-color: #e1e1e1;
+    border: 0;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.86;
+    letter-spacing: 0.35px;
+    padding-left: 32px;
+    color: rgba(34, 34, 36, 0.67);
+    margin-top: 35px;
+}
+
+.subscribe {   
+    width: 104px;
+    height: 46px;
+    border-radius: 23px;
+    border: 0;
+    background-color: #f16d7f;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    color: #fff;
 }
 
 .footerPhantom {
