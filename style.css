@@ -472,6 +472,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 109px;
 }
 
 .aboutUs-container {
@@ -483,7 +484,6 @@ html {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 111px;
 }
 
 .aboutUs-content {
@@ -539,8 +539,27 @@ html {
     color: #222224;
 }
 
+.rectangles {
+    margin-top: 37px;
+    display: flex;
+}
+
+.rectangle {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+}
+
+.rectangle:not(:last-child) {
+    margin-right: 13px;
+}
+
+.rectangle:hover {
+    background-color: #f16d7f;
+}
+
 .aboutUs-subscribe {
-    margin-bottom: 160px;
+    margin-bottom: 105px;
 }
 
 .subscribe-title {
@@ -565,12 +584,20 @@ html {
     margin-top: -13px;
 }
 
+.subscribe-form {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
 .mail {
     width: 282px;
     height: 46px;
     background-color: #e1e1e1;
     border: 0;
-    border-radius: 23px;
+    outline: 0;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -582,10 +609,11 @@ html {
     margin-top: 35px;
 }
 
-.subscribe {   
+.subscribe {
     width: 104px;
     height: 46px;
-    border-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
     border: 0;
     background-color: #f16d7f;
     font-size: 14px;
@@ -601,6 +629,138 @@ html {
 }
 
 .footer {
-    height: 428px;
+    height: 320px;
     margin-top: -428px;
+}
+
+.footer-container {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-description {
+    width: 446px;
+    height: 181px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #898989;
+    margin-top: 29px;
+
+}
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+}
+
+.info:not(:last-child) {
+    margin-right: 137px;
+}
+
+.infoTitle {
+    margin-bottom: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: 0.45px;
+    text-align: right;
+    color: #f16d7f;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.f-li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.footer-links {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.63;
+    letter-spacing: 0.4px;
+    text-align: right;
+    color: #898989;
+}
+
+.bottomFooter {
+    margin-top: 88px;
+    margin-bottom: 32px;
+}
+
+.f-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 229px;
+}
+
+.social {
+    display: flex;
+    margin-right: 230px;
+}
+
+.sRectangle-1 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/f.png) no-repeat  center;
+}
+
+.sRectangle-2 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/tw.png) no-repeat;
+}
+
+.sRectangle-3 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/in.png) no-repeat  center;
+}
+
+.sRectangle-4 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/p.png) no-repeat  center;
+}
+
+.sRectangle-5 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/g+.png) no-repeat center;
+}
+
+.sRectangle-1:hover {
+    background:#f16d7f;
+}
+
+.sRectangle-2:hover {
+    background:#f16d7f;    
+}
+
+.sRectangle-3:hover {
+    background:#f16d7f;
+}
+
+.sRectangle-4:hover {
+    background:#f16d7f;    
+}
+
+.sRectangle-5:hover {
+    background:#f16d7f;    
 }
