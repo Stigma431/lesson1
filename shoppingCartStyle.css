@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    height: 100px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+    border: solid 1px #ececec;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2.313vw;
+}
+
+.logoImage {
+    background-image: url(Images/logo-img.png);
+    background-repeat: no-repeat;
+    width: 3.688vw;
+    height: 51px;
+    margin-right: 0.813vw;
+}
+
+.logoText {
+    font-size: 27px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.68px;
+    text-align: center;
+    color: #222222;
+
+}
+
+.logoText span {
+    color: #f16d7f;
+}
+
+.browse {
+    width: 5.438vw;
+    height: 40px;
+    border: solid 1px #e6e6e6;
+}
+
+.searchForm {
+    width: 17.438vw;
+    height: 38px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    padding-left: 16px;
+    margin-left: -0.312vw;
+    margin-right: -0.312vw;
+}
+
+.search {
+    width: 2.375vw;
+    height: 40px;
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+    margin-right: 19.625vw;
+    ;
+}
+
+.myAccount {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.myAccountButton {
+    width: 8.125vw;
+    height: 38px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    border: none;
+    margin-left: 1.625vw;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.menu {
+    height: 51px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.container-m {
+    width: 43.750vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+
+}
+
+.newArrivals {
+    margin-top: 65px;
+}
+
+.newArrContainer {
+    width: 1098px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrTitle {
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.arrNav {
+    display: flex;
+    justify-content: center;
+}
+
+.navList {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636363;
+}
+
+.active {
+    font-weight: bold;
+    color: #f16d7f;
+}
+
+.navList:hover {
+    font-weight: bold;
+    color: #f16d7f;
+}
+
+
+
+.aboutUs {
+    margin-top: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 109px;
+    background: url(Images/subscribe-bg.jpg) no-repeat;
+    width: 100%;
+    height: 438px;
+}
+
+.aboutUs-container {
+    width: 1098px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUs-content {
+    display: flex;
+    margin-bottom: 111px;
+
+}
+
+.photo {
+    width: 83px;
+    height: 83px;
+
+}
+
+.aboutUs-text {
+    margin-left: 28px;
+}
+
+.сomment {
+    width: 398px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #222224;
+
+}
+
+.name {
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #f16d7f;
+}
+
+.city {
+    margin-top: 9px;
+    font-size: 12px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #222224;
+}
+
+.rectangles {
+    margin-top: 37px;
+    display: flex;
+}
+
+.rectangle {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+}
+
+.rectangle:not(:last-child) {
+    margin-right: 13px;
+}
+
+.rectangle:hover {
+    background-color: #f16d7f;
+}
+
+.aboutUs-subscribe {
+    margin-bottom: 105px;
+}
+
+.subscribe-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #222224;
+    text-transform: uppercase;
+}
+
+.subscribe-title span {
+    font-size: 24px;
+    line-height: 2.25;
+    letter-spacing: 0.6px;
+}
+
+.subscribe-title p {
+    margin-top: -13px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.mail {
+    width: 282px;
+    height: 46px;
+    background-color: #e1e1e1;
+    border: 0;
+    outline: 0;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.86;
+    letter-spacing: 0.35px;
+    padding-left: 32px;
+    color: rgba(34, 34, 36, 0.67);
+    margin-top: 35px;
+}
+
+.subscribe {
+    width: 104px;
+    height: 46px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border: 0;
+    background-color: #f16d7f;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    color: #fff;
+}
+
+.footerPhantom {
+    height: 428px;
+}
+
+.footer {
+    height: 320px;
+    margin-top: -428px;
+}
+
+.footer-container {
+    width: 1098px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-description {
+    width: 446px;
+    height: 181px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #898989;
+    margin-top: 29px;
+
+}
+
+.topNav {
+    width: 608px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoTitle {
+    margin-bottom: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: 0.45px;
+    text-align: right;
+    color: #f16d7f;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.f-li:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.footer-links {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.63;
+    letter-spacing: 0.4px;
+    text-align: right;
+    color: #898989;
+}
+
+.bottomFooter {
+    margin-top: 88px;
+    margin-bottom: 32px;
+}
+
+.f-container {
+    width: 1098px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social {
+    display: flex;
+}
+
+.sRectangle-1 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/f.png) no-repeat center;
+}
+
+.sRectangle-2 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/tw.png) no-repeat;
+}
+
+.sRectangle-3 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/in.png) no-repeat center;
+}
+
+.sRectangle-4 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/p.png) no-repeat center;
+}
+
+.sRectangle-5 {
+    width: 32px;
+    height: 32px;
+    background: url(Images/g+.png) no-repeat center;
+}
+
+.sRectangle-1:hover {
+    background: #f16d7f;
+}
+
+.sRectangle-2:hover {
+    background: #f16d7f;
+}
+
+.sRectangle-3:hover {
+    background: #f16d7f;
+}
+
+.sRectangle-4:hover {
+    background: #f16d7f;
+}
+
+.sRectangle-5:hover {
+    background: #f16d7f;
+}
