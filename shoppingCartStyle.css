@@ -117,7 +117,6 @@ html {
     align-items: center;
 }
 
-
 .menu-link {
     text-decoration: none;
     color: black;
@@ -130,7 +129,10 @@ html {
     letter-spacing: normal;
     text-align: left;
     color: #222222;
+}
 
+.menu-link:hover {
+    color: #ef5b70;
 }
 
 .newArrivals {
@@ -185,7 +187,96 @@ html {
     color: #f16d7f;
 }
 
+.category {
+    margin-top: 155px;
+}
 
+.categoryContainer {
+    width: 1098px;
+    margin: 0 auto;
+}
+
+.categoryList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #222;
+}
+
+
+
+.partList:first-child {
+    margin-right: 300px;
+}
+
+.partList {
+    justify-content: space-between;
+}
+
+.itemInfo {
+    margin-top: 43px;
+}
+
+.itemContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemContentInfo {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #575757;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemName {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #222;
+}
+
+.itemContentInfo span {
+    font-weight: 300;
+    color: #6f6e6e;
+}
+
+.categoryList {
+    display: flex;
+}
+
+.partItemList {
+    justify-content: space-between;
+
+}
+
+.partItemList:first-child {
+    margin-right: 145px;
+}
+
+.partItemList:not(:first-child) {
+    display: flex;
+    align-items: center;
+}
 
 .aboutUs {
     margin-top: 97px;
