@@ -278,6 +278,156 @@ html {
     align-items: center;
 }
 
+.accept {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+}
+
+.acceptContainer {
+    width: 1098px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acceptButtons {
+    width: 235px;
+    height: 50px;
+    border: solid 1px #eaeaea;
+    background-color: #fff;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.payment {
+    margin-top: 63px;
+
+}
+
+.paymentContainer {
+    width: 1098px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 268px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columnTitle {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.paymentForm {
+    width: 355px;
+    height: 45px;
+    border: solid 1px #eaeaea;
+    background-color: #fff;
+    outline: none;
+}
+
+.smallPaymentButton {
+    width: 100px;
+    height: 35px;
+    border: solid 1px #eaeaea;
+    background-color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    text-transform: uppercase;
+}
+
+.coupon {
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columnDescription {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.total {
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sub {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.grand {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+
+.grand span {
+    color: #f16d7f;
+}
+
+.paymentMainButton {
+    width: 273px;
+    height: 50px;
+    background-color: #f16d7f;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    text-transform: uppercase;
+}
+
+
 .aboutUs {
     margin-top: 97px;
     display: flex;
